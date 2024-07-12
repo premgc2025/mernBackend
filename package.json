@@ -4,7 +4,7 @@
   "description": "User Profile API",
   "main": "index.js",
   "scripts": {
-    "satrt": "node index.js"
+    "satrt":"node index.js"
   },
   "author": "Prem GC",
   "license": "ISC",
