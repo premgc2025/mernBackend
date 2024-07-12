@@ -5,6 +5,7 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 const moment = require('moment')
 require('dotenv').config();
+const PORT = process.env.PORT ||5000;
 
 
 
@@ -216,7 +217,7 @@ app.put('/user/:id', (req, res) => {
 
 
 
-const PORT = 5000;
+
 app.listen(PORT, () => {
     console.log("Server is UP and Running at Port :", PORT)
 })
